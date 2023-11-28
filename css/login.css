@@ -5,7 +5,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url(/img/FondoEdit.png);
+    background-image: url(../img/FondoEdit.png);
+    
   }
 
   form {
