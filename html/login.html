@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/login.css">
+  <title>Login</title>
+</head>
+<body>
+
+    
+
+<form>
+    <h2>Iniciar sesion</h2>
+  <label for="username">Usuario:</label>
+  <input type="text" id="username" name="username" placeholder="Ingrese su email" required>
+
+  <label for="password">Contraseña:</label>
+  <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+
+  <button type="button" onclick="login()">Iniciar Sesión</button>
+
+  <div class="reset">
+    <span>Olvidaste tu contraseña?</span>
+    <a href="" title="recuperar contraseña">Recuperar contraseña</a>
+</div>
+<div class="crear">
+    <a href="" title="Crear cuenta">Crear cuenta</a>
+</div>
+
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../js/login.js"></script>
+</body>
+</html>
